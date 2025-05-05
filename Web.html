@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FP X EMPRESA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            position: relative;
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        header h1 {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .imagen {
+            flex: 1 1 300px;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .imagen img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="Imagenes/Logotipo.png" alt="Logo de la página izquierda">
+        <h1>1ª Jornadas FP X Empresa Alicante</h1>
+        <img src="Imagenes/Logotipo.png" alt="Logo de la página derecha">
+    </header>
+
+    <main>
+        <p>Las Jornadas FP x Empresa son un evento innovador que une a empresas líderes en tecnología con estudiantes de Formación Profesional. 
+        Este encuentro ofrece una plataforma única para compartir conocimientos, experiencias y oportunidades laborales, fomentando la colaboración entre el mundo académico y el empresarial.</p>
+
+        <div class="galeria">
+            <div class="imagen">
+                <img src="Imagenes/Infografía.png" alt="Infografía.">
+                <p>Infografía sobre el evento</p>
+            </div>
+            <div class="imagen">
+                <img src="Imagenes/WordCloud.png" alt="Nube de Ideas.">
+                <p>Nube de ideas que incluye el contenido enseñado en el evento</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - FP X EMPRESAS</p>
+    </footer>
+
+</body>
+</html>
